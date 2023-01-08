@@ -9,7 +9,9 @@ SYNOPSIS
 ========
 
 ```raku
-use UNICODE::VERSION;
+use UNICODE-VERSION;
+
+say $?UNICODE-VERSION;  # v13.0  e.g.
 ```
 
 DESCRIPTION

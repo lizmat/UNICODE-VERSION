@@ -43,7 +43,9 @@ UNICODE-VERSION - Provide $?UNICODE-VERSION for older Raku versions
 
 =begin code :lang<raku>
 
-use UNICODE::VERSION;
+use UNICODE-VERSION;
+
+say $?UNICODE-VERSION;  # v13.0  e.g.
 
 =end code
 
@@ -77,4 +79,3 @@ This library is free software; you can redistribute it and/or modify it under th
 =end pod
 
 # vim: expandtab shiftwidth=4
-

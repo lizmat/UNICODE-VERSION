@@ -1,4 +1,8 @@
 use Test;
 use UNICODE-VERSION;
 
-dd $?UNICODE-VERSION;
+plan 1;
+
+isa-ok $?UNICODE-VERSION, Version;
+
+# vim: expandtab shiftwidth=4
